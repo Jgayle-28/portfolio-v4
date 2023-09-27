@@ -1,0 +1,75 @@
+.main {
+  height: 100vh;
+
+  .mask,
+  .body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dfdae6;
+    // color: #cdc6b8;
+    font-size: 64px;
+    line-height: 66px;
+    cursor: default;
+
+    p {
+      width: 1000px;
+      padding: 40px;
+      font-weight: 300;
+      // font-family: 'Barlow', sans-serif;
+    }
+    span {
+      color: var(--brandSecondary);
+      // font-weight: 500;
+    }
+  }
+
+  .mask {
+    mask-image: url('../../../public/mask.svg');
+    mask-repeat: no-repeat;
+    mask-size: 40px;
+    background: var(--brandSecondary);
+    position: absolute;
+    color: black;
+  }
+}
+
+// .heroTextWrapper {
+//   // height: 100vh;
+
+//   .mask,
+//   .body {
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: #cdc6b8;
+//     // color: #afa18f;
+//     font-size: 64px;
+//     line-height: 66px;
+//     cursor: default;
+
+//     p {
+//       width: 1000px;
+//       padding: 40px;
+//     }
+//     span {
+//       color: #00c4bb;
+//     }
+//   }
+//   .body {
+//     position: relative;
+//   }
+
+//   .mask {
+//     mask-image: url('../../../public/mask.svg');
+//     mask-repeat: no-repeat;
+//     mask-size: 40px;
+//     background: #00c4bb;
+//     position: absolute;
+//     color: black;
+//   }
+// }
